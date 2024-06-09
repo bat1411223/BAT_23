@@ -2,6 +2,7 @@ package stepDefinations;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.AddNewCustomerPage;
 import pageObjects.AdminPage;
 import utilities.ReadConfig;
 
@@ -14,4 +15,6 @@ public class Base {
 	AdminPage admin;
 	
 	ReadConfig readConfig;
+	
+	public AddNewCustomerPage addCust;
 }

@@ -7,12 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "./Features/AddNewCust.feature",
+		features = "./Features/AddNewCustomer.feature",
 		glue="stepDefinations",
 		dryRun = false,
 		monochrome = true,
-		publish = true,
-		tags = "@Valid"
+		publish = true
+		
 	
 		
 		
